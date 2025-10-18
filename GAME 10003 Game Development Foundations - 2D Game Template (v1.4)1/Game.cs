@@ -119,7 +119,7 @@ namespace MohawkGame2D
                 drawSize--;
                 Thread.Sleep(100);
             }
-            ///change colour of what you are drawing
+            ///change colour of what you are drawing when you click on the circles.
             if (mouseX > 30 && mouseX < 110 && mouseY > 10 && mouseY < 90 && (Input.IsMouseButtonDown(MouseInput.Left)))
             {
                 Console.WriteLine("Red");
